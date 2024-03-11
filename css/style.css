@@ -201,14 +201,20 @@ a.current{
     }
     .grid2{
         display:inline-block;
-        padding: 10px;
-        height: 500px;
+        padding: 20px;
+        height: 800px;
         background-color: #ff000050;
+        border: solid 2px #fff;
         border-radius: 30px;
         overflow:scroll;
         }
+    .grid2 img:hover{
+        transform: scale(1.5);
+        border: none;
+        margin: 20px;
+    }
     img{
         align-items: none;
         width: 90%;
     }
-    }
+
